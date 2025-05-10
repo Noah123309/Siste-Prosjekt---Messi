@@ -16,10 +16,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    color: #fff;
 }
 
 .logo {
-    color: brown;
     font-size: 2rem;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -43,6 +43,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    background-color: #004d98;
 }
 
 .bilde-container>img {
@@ -59,25 +60,31 @@ nav {
     padding: 3rem;
     position: relative;
     overflow: hidden;
+    background-color: #a50044;
+    color: ;
 }
 
 .tall {
     font-family: "Cal Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20rem;
+    font-size: 19rem;
     color: lightblue;
     position: absolute;
     z-index: 1;
-    left: 0;
+    left: 1;
     top: 15%;
     opacity: 0.5;
-    transform: translateY(-6%);
+    transform: translateY(-7%);
+    color: #ffed02;
 }
 
 .tekst-innhold {
     position: relative;
     z-index: 2;
+    left: 3;
+    top: 8%;
+    color: #fff;
 }
 
 .tittel {
@@ -96,5 +103,4 @@ nav {
     font-style: normal;
     font-size: 1.2rem;
     line-height: 1.3;
-
 }
