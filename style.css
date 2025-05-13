@@ -24,7 +24,7 @@ nav {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.link-container>a {
+.link-container > a {
     margin-right: 1.5rem;
     text-decoration: none;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -32,7 +32,30 @@ nav {
     font-size: large;
 }
 
-.master-container, .junior-container {
+.forside{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.forside-bilde{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.forside-bilde > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.master-container {
     display: flex;
     min-height: 100vh;
 }
@@ -102,16 +125,4 @@ nav {
     font-style: normal;
     font-size: 1.2rem;
     line-height: 1.3;
-}
-
-.content{
-    flex: 1;
-    display: flex;
-    background: linear-gradient(180deg, #000, #fff);
-}
-
-.bilde-karusell{
-    flex: 1;
-    display: flex;
-    background: linear-gradient(180deg, #000, #fff);
 }
