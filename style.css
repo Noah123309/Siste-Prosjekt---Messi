@@ -58,7 +58,7 @@ nav {
 .overskrift {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 700;
     font-style: italic;
     position: absolute;
     top: 40%;
@@ -67,6 +67,21 @@ nav {
     text-align: center;
     color: #fff;
     font-size: 9rem;
+}
+
+.quote {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+
 }
 
 .master-container {
